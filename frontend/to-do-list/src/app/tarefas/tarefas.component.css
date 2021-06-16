@@ -1,0 +1,7 @@
+#nav-principal {
+  background-color: var(--purple-color);
+}
+
+#nav-principal .nav-link, #nav-principal .navbar-brand {
+  color: #FFFFFF;
+}

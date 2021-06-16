@@ -1,0 +1,44 @@
+* {
+  --dark-color: #353535;
+  --gray-color: #E4E4E4;
+  --blue-color: #327CCB;
+  --blue-color-hover: #1a6fc9;
+  --purple-color: #574ECD;
+  --green-color: #539E12;
+  --yellow-orange-color: #FA9F29;
+  --red-color: #D3232D;
+
+  color: --dark-color;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+  border-radius: 20px !important;
+}
+
+textarea.form-control {
+  border-radius: 10px !important;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--blue-color) !important;
+  border-color: var(--blue-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-color-hover) !important;
+  border-color: var(--blue-color-hover) !important;
+}
+
+.body-content {
+  background-color: #F3F3F3;
+  background-image: url('./assets/wave.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  min-height: 100vh;
+}
